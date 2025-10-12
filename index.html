@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de Vida - Luz Estrella León</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .card {
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .foto {
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    h1, h2 {
+      color: #0d47a1;
+    }
+    .btn-primary {
+      background-color: #1976d2;
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #0d47a1;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Mi Hoja de Vida</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="experiencia.html">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="educacion.html">Educación</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SECCIÓN PRINCIPAL -->
+  <div class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="mifoto.jpg" alt="Foto personal" width="200" class="foto mb-3">
+      </div>
+      <div class="col-md-8">
+        <h1 class="mb-3">Luz Estrella León Peinado</h1>
+        <p class="lead">
+          Estudiante de <strong>Ingeniería de Software</strong> en la <strong>Universidad de Cartagena</strong>.
+          Me interesa el desarrollo web, las bases de datos y la automatización de procesos.
+          Soy una persona responsable, con capacidad para trabajar en equipo y con deseos de seguir aprendiendo
+          para aportar soluciones tecnológicas innovadoras.
+        </p>
+        <a href="contacto.html" class="btn btn-primary mt-3">Contáctame</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="bg-primary text-white text-center py-3 mt-5">
+    © 2025 Luz Estrella León Peinado | Ingeniería de Software - Universidad de Cartagena
