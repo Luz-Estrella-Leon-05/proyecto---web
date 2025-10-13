@@ -1,12 +1,12 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb); /* Fondo degradado azul claro */
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #005f99;
+  background-color: #1976d2; /* Azul medio (como el botón del primer diseño) */
   color: white;
   padding: 15px;
   text-align: center;
@@ -24,4 +24,5 @@ nav a:hover {
 
 section {
   padding: 20px;
+  color: #0d47a1; /* Azul oscuro para títulos o texto importante */
 }
